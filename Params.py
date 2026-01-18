@@ -1,7 +1,7 @@
 import argparse
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="Run STLLMRec.")
+    parser = argparse.ArgumentParser(description="Run SEDIRec.")
     parser.add_argument('--seed', type=int, default=2024,
                         help='Random seed.')
     parser.add_argument('--dataset', nargs='?', default='dbbook2014',
