@@ -1,5 +1,5 @@
 # SEDIRec: Large Language Models-Enhanced Semantic Diffusion for User-Centric Recommendation
-This is the Torch implementation for our proposed SEDIRec.
+**This is the Torch implementation for our proposed SEDIRec, which has been accepted by WWW 2026.**
 
 ![framework](pics/framework.png)
 
@@ -20,14 +20,6 @@ Our experiments are conducted on Linux server with 40G A100. The code has been t
 * sentence-trainsformers == 3.0.0
 * prettytable == 3.10.0
 * nltk == 3.8.1
-
-## Quick Start
-* To run the code:
-```
-python -u train.py --dataset book-crossing
-```
-
-This conmand will read the best hyperparameter setting of the corresponding dataset from `config` folder and languch the training process.
 
 ## Details of Important Files
 The following outlines the structure of the repository and provides a brief explanation of each file or folder:
@@ -52,3 +44,13 @@ To generate user interests independently, please follow the procedural steps out
 * `LLM.py`: Run LLM.py to generate user interests with DeepSeek.
 * `LLM_check.py`: Run LLM_check.py to check and fix LLM.py errors caused by network issues.
 * `Structration_User_Knowledge.py`: Run Structration_User_Knowledge.py to generate the user interest knowledge graph.
+
+## Acknowledgements
+We are particularly grateful to the authors of CIKGRec and DiffMM, as parts of our code implementation were derived from their work. We have cited the relevant references in our paper.
+
+Click to browse CIKGRec: https://ojs.aaai.org/index.php/AAAI/article/view/33284
+
+Click to browse DiffMM: https://dl.acm.org/doi/abs/10.1145/3664647.3681498
+
+## Citation
+If you feel our work is insightful and want to use the code or cite our paper, please add the following citation to your paper references.
