@@ -46,11 +46,13 @@ To generate user interests independently, please follow the procedural steps out
 * `Structration_User_Knowledge.py`: Run Structration_User_Knowledge.py to generate the user interest knowledge graph.
 
 ## Acknowledgements
-We are particularly grateful to the authors of CIKGRec and DiffMM, as parts of our code implementation were derived from their work. We have cited the relevant references in our paper.
+We are particularly grateful to the authors of CIKGRec, DiffMM and DiffGraph, as parts of our code implementation were derived from their work. We have cited the relevant references in our paper.
 
 Click to browse CIKGRec: https://ojs.aaai.org/index.php/AAAI/article/view/33284
 
 Click to browse DiffMM: https://dl.acm.org/doi/abs/10.1145/3664647.3681498
+
+Click to browse DiffGraph: https://dl.acm.org/doi/abs/10.1145/3664647.3681498
 
 ## Citation
 If you feel our work is insightful and want to use the code or cite our paper, please add the following citation to your paper references.
