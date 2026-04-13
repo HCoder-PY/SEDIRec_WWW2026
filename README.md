@@ -56,3 +56,12 @@ Click to browse DiffGraph: https://dl.acm.org/doi/abs/10.1145/3664647.3681498
 
 ## Citation
 If you feel our work is insightful and want to use the code or cite our paper, please add the following citation to your paper references.
+```
+@inproceedings{mo2026large,
+  title={Large Language Models-Enhanced Semantic Diffusion for User-Centric Recommendation},
+  author={Mo, Xian and Hu, Yijun and Pang, Jun},
+  booktitle={Proceedings of the ACM Web Conference 2026},
+  pages={5834--5842},
+  year={2026}
+}
+```
