@@ -175,7 +175,7 @@ class GaussianDiffusion(nn.Module):
 
         return model_mean, model_log_variance
 
-    def training_losses2(self, model, targetEmbeds, x_start):
+    def training_losses2(self, model, x_start, targetEmbeds):
         batch_size = x_start.size(0)
         device = x_start.device
         ts = torch.randint(0, self.steps, (batch_size,)).long().to(device)
