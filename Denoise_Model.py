@@ -76,7 +76,7 @@ class Denoise(nn.Module):
 
         return h
 
-
+# Diffusion Model
 class GaussianDiffusion(nn.Module):
     def __init__(self, noise_scale, noise_min, noise_max, steps, beta_fixed=True):
         super(GaussianDiffusion, self).__init__()
